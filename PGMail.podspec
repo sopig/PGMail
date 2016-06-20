@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/sopig/PGMail.git" }
 
   
-  core.source_files = 'Classes/**/PGMailSMTP.h'
+  s.source_files = 'Classes/**/PGMailSMTP.h'
   s.public_header_files = "Classes/**/PGMailSMTP.h"
   s.vendored_libraries = 'libPGMail.a'
   #s.resource = 'Classes/**/*.plist','Classes/**/*.pem'

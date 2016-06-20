@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5F0D1C11D17C05700A27D94 /* PGMail.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A5F0D1C01D17C05700A27D94 /* PGMail.h */; };
+		A5F0D1C31D17C05700A27D94 /* PGMail.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F0D1C21D17C05700A27D94 /* PGMail.m */; };
+		A5F0D1D81D17C0A900A27D94 /* PGMailSMTP.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F0D1CC1D17C0A900A27D94 /* PGMailSMTP.m */; };
+		A5F0D1D91D17C0A900A27D94 /* Base64Transcoder.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F0D1CF1D17C0A900A27D94 /* Base64Transcoder.m */; };
+		A5F0D1DA1D17C0A900A27D94 /* HSK_CFUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F0D1D11D17C0A900A27D94 /* HSK_CFUtilities.m */; };
+		A5F0D1DB1D17C0A900A27D94 /* NSData+Base64Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F0D1D31D17C0A900A27D94 /* NSData+Base64Additions.m */; };
+		A5F0D1DC1D17C0AA00A27D94 /* NSStream+SKPSMTPExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F0D1D51D17C0A900A27D94 /* NSStream+SKPSMTPExtensions.m */; };
+		A5F0D1DD1D17C0AA00A27D94 /* SKPSMTPMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F0D1D71D17C0A900A27D94 /* SKPSMTPMessage.m */; };
+		A5F0D1DF1D17C0DD00A27D94 /* PGMail.h in Headers */ = {isa = PBXBuildFile; fileRef = A5F0D1C01D17C05700A27D94 /* PGMail.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5F0D1E01D17C0E300A27D94 /* PGMailSMTP.h in Headers */ = {isa = PBXBuildFile; fileRef = A5F0D1CB1D17C0A900A27D94 /* PGMailSMTP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5F0D1E11D17C0FC00A27D94 /* Base64Transcoder.h in Headers */ = {isa = PBXBuildFile; fileRef = A5F0D1CE1D17C0A900A27D94 /* Base64Transcoder.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A5F0D1E21D17C0FF00A27D94 /* HSK_CFUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = A5F0D1D01D17C0A900A27D94 /* HSK_CFUtilities.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A5F0D1E31D17C10300A27D94 /* NSData+Base64Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = A5F0D1D21D17C0A900A27D94 /* NSData+Base64Additions.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A5F0D1E41D17C10600A27D94 /* NSStream+SKPSMTPExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = A5F0D1D41D17C0A900A27D94 /* NSStream+SKPSMTPExtensions.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A5F0D1E51D17C10A00A27D94 /* SKPSMTPMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = A5F0D1D61D17C0A900A27D94 /* SKPSMTPMessage.h */; settings = {ATTRIBUTES = (Private, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A5F0D1BB1D17C05700A27D94 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				A5F0D1C11D17C05700A27D94 /* PGMail.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A5F0D1BD1D17C05700A27D94 /* libPGMail.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPGMail.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5F0D1C01D17C05700A27D94 /* PGMail.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGMail.h; sourceTree = "<group>"; };
+		A5F0D1C21D17C05700A27D94 /* PGMail.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGMail.m; sourceTree = "<group>"; };
+		A5F0D1CB1D17C0A900A27D94 /* PGMailSMTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGMailSMTP.h; sourceTree = "<group>"; };
+		A5F0D1CC1D17C0A900A27D94 /* PGMailSMTP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGMailSMTP.m; sourceTree = "<group>"; };
+		A5F0D1CE1D17C0A900A27D94 /* Base64Transcoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64Transcoder.h; sourceTree = "<group>"; };
+		A5F0D1CF1D17C0A900A27D94 /* Base64Transcoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64Transcoder.m; sourceTree = "<group>"; };
+		A5F0D1D01D17C0A900A27D94 /* HSK_CFUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSK_CFUtilities.h; sourceTree = "<group>"; };
+		A5F0D1D11D17C0A900A27D94 /* HSK_CFUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSK_CFUtilities.m; sourceTree = "<group>"; };
+		A5F0D1D21D17C0A900A27D94 /* NSData+Base64Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64Additions.h"; sourceTree = "<group>"; };
+		A5F0D1D31D17C0A900A27D94 /* NSData+Base64Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64Additions.m"; sourceTree = "<group>"; };
+		A5F0D1D41D17C0A900A27D94 /* NSStream+SKPSMTPExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSStream+SKPSMTPExtensions.h"; sourceTree = "<group>"; };
+		A5F0D1D51D17C0A900A27D94 /* NSStream+SKPSMTPExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSStream+SKPSMTPExtensions.m"; sourceTree = "<group>"; };
+		A5F0D1D61D17C0A900A27D94 /* SKPSMTPMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKPSMTPMessage.h; sourceTree = "<group>"; };
+		A5F0D1D71D17C0A900A27D94 /* SKPSMTPMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKPSMTPMessage.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5F0D1BA1D17C05700A27D94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5F0D1B41D17C05700A27D94 = {
+			isa = PBXGroup;
+			children = (
+				A5F0D1C91D17C0A900A27D94 /* Classes */,
+				A5F0D1BF1D17C05700A27D94 /* PGMail */,
+				A5F0D1BE1D17C05700A27D94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5F0D1BE1D17C05700A27D94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5F0D1BD1D17C05700A27D94 /* libPGMail.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5F0D1BF1D17C05700A27D94 /* PGMail */ = {
+			isa = PBXGroup;
+			children = (
+				A5F0D1C01D17C05700A27D94 /* PGMail.h */,
+				A5F0D1C21D17C05700A27D94 /* PGMail.m */,
+			);
+			path = PGMail;
+			sourceTree = "<group>";
+		};
+		A5F0D1C91D17C0A900A27D94 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A5F0D1CA1D17C0A900A27D94 /* MailSMTP */,
+				A5F0D1CD1D17C0A900A27D94 /* SMTPLibrary */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A5F0D1CA1D17C0A900A27D94 /* MailSMTP */ = {
+			isa = PBXGroup;
+			children = (
+				A5F0D1CB1D17C0A900A27D94 /* PGMailSMTP.h */,
+				A5F0D1CC1D17C0A900A27D94 /* PGMailSMTP.m */,
+			);
+			path = MailSMTP;
+			sourceTree = "<group>";
+		};
+		A5F0D1CD1D17C0A900A27D94 /* SMTPLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				A5F0D1CE1D17C0A900A27D94 /* Base64Transcoder.h */,
+				A5F0D1CF1D17C0A900A27D94 /* Base64Transcoder.m */,
+				A5F0D1D01D17C0A900A27D94 /* HSK_CFUtilities.h */,
+				A5F0D1D11D17C0A900A27D94 /* HSK_CFUtilities.m */,
+				A5F0D1D21D17C0A900A27D94 /* NSData+Base64Additions.h */,
+				A5F0D1D31D17C0A900A27D94 /* NSData+Base64Additions.m */,
+				A5F0D1D41D17C0A900A27D94 /* NSStream+SKPSMTPExtensions.h */,
+				A5F0D1D51D17C0A900A27D94 /* NSStream+SKPSMTPExtensions.m */,
+				A5F0D1D61D17C0A900A27D94 /* SKPSMTPMessage.h */,
+				A5F0D1D71D17C0A900A27D94 /* SKPSMTPMessage.m */,
+			);
+			path = SMTPLibrary;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A5F0D1DE1D17C0BE00A27D94 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5F0D1DF1D17C0DD00A27D94 /* PGMail.h in Headers */,
+				A5F0D1E01D17C0E300A27D94 /* PGMailSMTP.h in Headers */,
+				A5F0D1E11D17C0FC00A27D94 /* Base64Transcoder.h in Headers */,
+				A5F0D1E21D17C0FF00A27D94 /* HSK_CFUtilities.h in Headers */,
+				A5F0D1E31D17C10300A27D94 /* NSData+Base64Additions.h in Headers */,
+				A5F0D1E41D17C10600A27D94 /* NSStream+SKPSMTPExtensions.h in Headers */,
+				A5F0D1E51D17C10A00A27D94 /* SKPSMTPMessage.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A5F0D1BC1D17C05700A27D94 /* PGMail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5F0D1C61D17C05700A27D94 /* Build configuration list for PBXNativeTarget "PGMail" */;
+			buildPhases = (
+				A5F0D1B91D17C05700A27D94 /* Sources */,
+				A5F0D1BA1D17C05700A27D94 /* Frameworks */,
+				A5F0D1BB1D17C05700A27D94 /* CopyFiles */,
+				A5F0D1DE1D17C0BE00A27D94 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PGMail;
+			productName = PGMail;
+			productReference = A5F0D1BD1D17C05700A27D94 /* libPGMail.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5F0D1B51D17C05700A27D94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = jiuxian.com;
+				TargetAttributes = {
+					A5F0D1BC1D17C05700A27D94 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = A5F0D1B81D17C05700A27D94 /* Build configuration list for PBXProject "PGMail" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A5F0D1B41D17C05700A27D94;
+			productRefGroup = A5F0D1BE1D17C05700A27D94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5F0D1BC1D17C05700A27D94 /* PGMail */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5F0D1B91D17C05700A27D94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5F0D1D91D17C0A900A27D94 /* Base64Transcoder.m in Sources */,
+				A5F0D1DD1D17C0AA00A27D94 /* SKPSMTPMessage.m in Sources */,
+				A5F0D1DB1D17C0A900A27D94 /* NSData+Base64Additions.m in Sources */,
+				A5F0D1C31D17C05700A27D94 /* PGMail.m in Sources */,
+				A5F0D1DC1D17C0AA00A27D94 /* NSStream+SKPSMTPExtensions.m in Sources */,
+				A5F0D1DA1D17C0A900A27D94 /* HSK_CFUtilities.m in Sources */,
+				A5F0D1D81D17C0A900A27D94 /* PGMailSMTP.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A5F0D1C41D17C05700A27D94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A5F0D1C51D17C05700A27D94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5F0D1C71D17C05700A27D94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A5F0D1C81D17C05700A27D94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5F0D1B81D17C05700A27D94 /* Build configuration list for PBXProject "PGMail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5F0D1C41D17C05700A27D94 /* Debug */,
+				A5F0D1C51D17C05700A27D94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5F0D1C61D17C05700A27D94 /* Build configuration list for PBXNativeTarget "PGMail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5F0D1C71D17C05700A27D94 /* Debug */,
+				A5F0D1C81D17C05700A27D94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5F0D1B51D17C05700A27D94 /* Project object */;
+}
